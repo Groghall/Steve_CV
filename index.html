@@ -8,61 +8,71 @@
     <link rel='shortcut icon' href='./img/favicon.ico' type='image/x-icon'/ >
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="./css/cv.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
-    
+    <link href='https://fonts.googleapis.com/css?family=Sniglet' rel='stylesheet' type='text/css'>
+    <style>
+      body {
+       font-family: 'Sniglet', cursive;
+      }
+    </style>
+
+
   </head>
 <body>
 <!--Call in all styles using angular js -->
-  <nav class="bg-inverse navbar-fixed-top" style="height: 35px">
-    <div class="col-sm-4; col-sm-offset-4" style="padding-top: 5px ">Stephen Gault</div>
-  </nav>
-  <div class="invisible">
-  <p style="height: 19px"></p>
-    
+<nav class="nav nav-inline fixed-top" id="navmain">
+  <a class="nav-link" href="index.html">Stephen Gault</a>
+  <a class="nav-link" href="#gradientred">Welcome</a>
+  <a class="nav-link" href="#gradientblue">About</a>
+  <a class="nav-link" href="#">Career</a>
+  <a class="nav-link" href="#">Education</a>
+  <a class="nav-link" href="#">Interests</a>
+</nav>
+  <div class="invisible" style="height: 35px">
   </div>
 
 <!--Welcome banner-->
-<div class="container-fluid" style="height: 50px; background-color: gray" >
+<div class="container-fluid" id="gradientred" >
   <div class="row">
     <div class="container">
-      <div class="col-4-sm" style="color: white; padding-top:15px; font-size: 16px">
+      <div id="welcome">
       <p>Welcome, Bienvenido, Willkommen, Bienvenue</p>
       </div>
     </div>
   </div>
 </div>
 <!-- Welcome info overview, random blurb about this page -->
-<div class="container-fluid" style="height: 450px" >
-  <div class="row">
-    <div class="container">
-      <div class="col-4-sm">
-      
-        <p style="padding-top: 15px">
-        Welcome to my digital cv, this is similair to a normal cv (which can be obtained at the bottom of this page) but i figured why not make a digital one.
-        </p>
-        <br>
-        <p>My overall goal is to be a full stack developr specialising in multiple code languages. I currently have excellent knowledge of html5, css and basic javascript. I can use .net MVC and also Ruby on Rails. I have experience of building webforms for sharepoint using infopath and also hard coding webforms using core html, php and sql. Currently I am building a stand alone webform for fleetsolve to enable reporting of data offsite via a tablet. This will be hosted on azure with a sql database and secure logins.</p>
-      
-      </div>
+<div class="container-fluid" id="scale" >
+  <div class="container">
+    <div>
+      <p id="ppadding">
+      Welcome to my digital cv, this is similair to a normal cv (which can be obtained at the bottom of this page) but i figured why not make a digital one.
+      </p>
+      <br>
+      <p>My overall goal is to be a full stack developr specialising in multiple code languages. I currently have excellent knowledge of html5, css and basic javascript. I can use .net MVC and also Ruby on Rails. I have experience of building webforms for sharepoint using infopath and also hard coding webforms using core html, php and sql. Currently I am building a stand alone webform for fleetsolve to enable reporting of data offsite via a tablet. This will be hosted on azure with a sql database and secure logins.</p>
+    
     </div>
   </div>
 </div>
 <!--About banner-->
-<div class="container-fluid" style="height: 50px; background-color: gray" >
+<div class="container-fluid" id="gradientblue" >
   <div class="row">
-    <div class="container">
-      <div class="col-4-sm" style="color: white; padding-top:15px; font-size: 16px">
-      About      
+  <div class="container">
+    <div id="welcome">
+      <div>
+      <p>About</p>      
       </div>
+    </div>
     </div>
   </div>
 </div>
 <!-- About info overview, Information about me -->
-<div class="container-fluid" style="height: 450px" >
+<div class="container-fluid" id="scale" >
   <div class="row">
     <div class="container">
-      <div class="col-4-sm">
-      Ipsum Lorem
+      <div>
+      <p id="ppadding">Ipsum Lorem</p>
       </div>
     </div>
   </div>
