@@ -117,7 +117,19 @@ ul li a:hover i{
 	color: white;
 	font-size: 11px
 }
+#scale a i{
+	color: black;
+}
+#scale a:hover i{
+	color: #4fea76;
+}
 footer {
 	padding-top: 25px;
 	height: 75px
+}
+#sith a:hover i{
+	color: red;
+}
+#jedi a:hover i{
+	color: #4cf7f4;
 }

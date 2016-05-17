@@ -1,0 +1,74 @@
+Name:		Stephen Gault					D.O.B:		14/10/1981
+Address:	49 Wright Street, Wallasey, CH44 8BD		
+Mob Num:	0773 343 8258					
+Email:		stephengault626@googlemail.com			GitHub:	 https://github.com/Groghall
+				
+Personal Statement:
+My overall aim is to become a full stack web engineer; I have a passion for attention to detail and a strong desire to see clean and concise code along with my design ideas for front end design I hope to be able to generate a large repository of application / sites. I have excellent knowledge of Word, Excel and Office 365, HTML5, and CSS3. I am currently expanding my knowledge by learning PHP and AngularJS. I have experience of using SharePoint and Azure, but would like to be able to develop my skills in both these areas to a much more senior role.
+
+Current Employment 
+Fleetsolve Ltd via Search Consultancy 	Feb 2016 – ongoing	Service and Maintenance supervisor
+Fleetsolve provide a unique stakeholder approach to renewable power generation. With a vested interest in managing optimum energy output and providing a consistent supply of certified quality bio-fuel, they ensure that their combined heat and power units (CHP) meet their clients low carbon obligations and renewable energy requirements for the lifetime of the operation.
+
+* Responsible for design and development of bespoke web form. (HTML, CSS, JavaScript, Bootstrap, PHP, SQL, Azure ). Scratch built and available for viewing on github (https://github.com/Groghall/ABPServiceForm).
+* IT support for maintenance of engineers laptops, rebuild of broken laptops (screen replacements, broken keyboards), upgrade and install of windows 10 to spare laptops and pc’s. Printer maintenance and liaising with IT service management for faults.
+* Making excel documents more fluid and dynamic using vba and macros.
+* Generation of job cards for engineers and planning of work for week ahead.
+* Responsible for generation of daily reports of data from chp power units and sending reports to Clients.
+
+Recent Employment:
+Nviron Ltd	Jun 2015 – Dec 2015	Junior Developer
+Nviron offers a range of SharePoint Services and Solutions that add value to new and existing SharePoint implementations. Nviron’s approach has always been focused on enabling customers to understand and take ownership of their SharePoint implementations by utilising best of breed technologies that lend themselves to providing a quick uptake and also by providing the necessary skills transfer and training.
+
+* Responsible for the creation of bespoke forms for clients using InfoPath, Photoshop and JavaScript
+* Embedding forms within Formotus and SharePoint for use on Android, apple and windows devices (mobile and static)
+* Ensuring thorough testing of forms using workflows and live dev environments
+* Following core testing methodologies (scrum, blackbox, regression etc)
+* Conversion of excel forms into fluid responsive forms via InfoPath and SharePoint.
+* SharePoint designer editing and Active directory (C#, .net, mvc)
+* Self Study time to learn more about SharePoint and additional cloud practices.
+* Development of documentation for training with clients.
+* Liaising with core client teams to ensure targets are met.
+
+CS Financial Solutions	Jan 2014 – Jun 2015 	Systems Support Developer
+CS Financial Solutions Limited was established in 1987. It’s a wholly owned subsidiary of Charles Stanley Group PLC - a public company whose shares are listed on the London Stock Exchange.
+We’re specialists in advising organisations on corporate and employee benefits and Auto Enrolment using their custom middleware. Our services are available through our experienced client services teams in Liverpool.
+
+* Build of demonstration website (offline) mirror of live middleware (HTML, CSS, Bootstrap, JavaScript) available to view on github (https://github.com/Groghall/AEWS_Click_Through_Demo)
+* Build of quick start website for clients to navigate middleware (HTML, CSS, Bootstrap, JavaScript) available to view on github (https://github.com/Groghall/csfs_quick_start_AE)
+* Build of custom vba macros for data analysis and manipulation of payroll data from clients
+* Build of bespoke benefits sites for clients using Staffcare cms (HTML, CSS, xml, javascript)
+* Build of vba macro for analysis of pension data for Pension providers
+* Training video creation and editing (adobe photoshop, premiere and screen capture software) http://www.charles-stanley.co.uk/employee-benefits/auto-enrolment-workplace-solution-videos
+* Providing clients with data analysis of payroll data for auto enrolment.
+* In house IT support for Microsoft office, servers and pc’s.
+* Training clients in use of middleware, on site or via teamviewer. From non IT knowledge to medium enterprise
+* Document creation (adobe pdf, word, photoshop) http://www.charles-stanley.co.uk/employee-benefits. 
+* 1st line client support
+
+Sony Computer Entertainment Europe	Apr 2013 – Dec 2013 and Jun 2012 – Sep 2012	 Functionality Tester/Localisation Tester	
+Sony Computer Entertainment Europe (SCEE), based in Liverpool, is responsible for the testing, development and localisation of software and hardware for PlayStation®4, PlayStation®3, PlayStation®Vita, PlayStation®2, PSP™ (PlayStation®Portable) and PlayStation®Network across 109 territories across Europe, the Middle East, Africa and Oceania. SCEE also develops, publishes, markets and distributes entertainment software for these formats, and manages the third party licensing programs for the formats in these territories.
+
+* Functionality Testing of software using various testing methodologies (regression, level, code, test cases, test creation, blackbox, whitebox)
+* Localisation testing (English language) on the companion app and game Knack
+* Credited on Tearaway (Bafta Winning Game).
+* Not credited but worked on Killzone SF and HD, Killzone Mercenary, Beyond Two Souls, Minecraft PS3, Little big planet Vita, Hustle Kings, Travel Bug.
+
+Education:
+Liverpool John Moores University
+Bsc Computer Technology (advanced diploma attained)		Sep 2010 – May 2013
+* 3rd Year – Embedded systems, internet and open source programming, advanced programming, advanced engineering management, advanced networks and engineering project.
+* 2nd Year – Networks and system connectivity, microcontrollers and interfacing, scripted applications and devices, business project, fault diagnosis, programming and windows applications and engineering management.
+* 1st Year – Key skills, introduction to labview, fundamental mathematics, computer architecture and configuration, programming in c and c#, 3d visualisation for the web, database design and web site design. 
+
+Foundation Degree Engineering and Technology (pass)		Sep 2009 – May 2010
+Introduction to engineering theory, mathematics, electrical systems engineering, mechanical systems engineering, engineering solutions, engineering practicals and study skills.
+
+BTEC Engineering GNVQ Intermediate					Pass
+
+8 GCSE’ – 1 x B, 4 x C, 3 x D
+
+Hobbies and Interests:
+In my spare time I regularly go cycling, I also cycle in charity events and will be riding in the Wirral bikeathon and the Liverpool/Chester/Liverpool again once my endurance reaches the required levels again. I read a lot of books and regularly update my book collection, from fiction to factual, currently I am reading working my through the Shannara series. When I am not exercising or reading I try to spend as much time as possible with my wife and three children doing a whole range of family activities. I have a keen interest in general coding and have taken to teaching my sons basic web coding using HTML and CSS and have started learning PHP and SQL to gain an extra language to my current set.
+
+Reference:	Available upon request.
