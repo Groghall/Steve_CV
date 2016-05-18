@@ -44,22 +44,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4fa6c', end
 }
 #welcome {
 	color: white; 
-	padding-top:15px; 
+	padding-top:10px; 
 	font-size: 18px;
 }
 #about {
 	color: white; 
-	padding-top:15px; 
+	padding-top:10px; 
 	font-size: 16px;
 }
 #career{
 	color: white; 
-	padding-top:15px; 
+	padding-top:10px; 
 	font-size: 16px;
 }
 #education {
 	color: white; 
-	padding-top:15px; 
+	padding-top:10px; 
 	font-size: 16px;
 }
 #scale {
@@ -68,7 +68,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4fa6c', end
 }
 #scale2 {
 	background: url("../img/bg1.png") no-repeat center center fixed;
-	min-height: 83%
+	min-height: 80%
 }
 #padding {
 	padding-left: 25px;
@@ -78,8 +78,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4fa6c', end
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4c4c4c+0,595959+12,666666+25,474747+39,2c2c2c+50,000000+51,111111+60,2b2b2b+76,1c1c1c+91,131313+100;Black+Gloss+%231 */
 /*background: rgb(00,00,00);*/
 background: url("../img/bg2.jpg");
-height: 35px;
-padding-top: 5px;
+height: 70px;
+padding-top: 20px;
 text-align: center;
 position: fixed;
 width: 100%;
@@ -95,15 +95,21 @@ width: 100%;
 
 }
 #cloak {
-	height: 35px;
+	height: 70px;
 }
 .anchor {
   display: block;
-  height: 35px; /*same height as header*/
-  margin-top: -35px; /*same height as header*/
+  height: 70px; /*same height as header*/
+  margin-top: -70px; /*same height as header*/
   visibility: hidden;
 }
-#align {
+#align ul li a i{
+	color: black
+}
+#align ul li a:hover i{
+	color: #4fea76;
+}
+#align1{
 	text-align: center;
 }
 ul li a i{ 
@@ -125,11 +131,215 @@ ul li a:hover i{
 }
 footer {
 	padding-top: 25px;
-	height: 75px
+	height: 70px
 }
 #sith a:hover i{
 	color: red;
 }
 #jedi a:hover i{
 	color: #4cf7f4;
+}
+
+@-webkit-keyframes horizontal {
+  0% {
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+
+  6% {
+    -webkit-transform: translate(5px,0);
+    transform: translate(5px,0);
+  }
+
+  12% {
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+
+  18% {
+    -webkit-transform: translate(5px,0);
+    transform: translate(5px,0);
+  }
+
+  24% {
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+
+  30% {
+    -webkit-transform: translate(5px,0);
+    transform: translate(5px,0);
+  }
+
+  36%, 100% {
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+}
+
+@keyframes horizontal {
+  0% {
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+
+  6% {
+    -webkit-transform: translate(5px,0);
+    -ms-transform: translate(5px,0);
+    transform: translate(5px,0);
+  }
+
+  12% {
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+
+  18% {
+    -webkit-transform: translate(5px,0);
+    -ms-transform: translate(5px,0);
+    transform: translate(5px,0);
+  }
+
+  24% {
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+
+  30% {
+    -webkit-transform: translate(5px,0);
+    -ms-transform: translate(5px,0);
+    transform: translate(5px,0);
+  }
+
+  36%, 100% {
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+}
+
+.faa-horizontal.animated,
+.faa-horizontal.animated-hover:hover,
+.faa-parent.animated-hover:hover > .faa-horizontal {
+  -webkit-animation: horizontal 2s ease infinite;
+  animation: horizontal 2s ease infinite;
+}
+
+.faa-horizontal.animated.faa-fast,
+.faa-horizontal.animated-hover.faa-fast:hover,
+.faa-parent.animated-hover:hover > .faa-horizontal.faa-fast {
+  -webkit-animation: horizontal 1s ease infinite;
+  animation: horizontal 1s ease infinite;
+}
+
+.faa-horizontal.animated.faa-slow,
+.faa-horizontal.animated-hover.faa-slow:hover,
+.faa-parent.animated-hover:hover > .faa-horizontal.faa-slow {
+  -webkit-animation: horizontal 3s ease infinite;
+  animation: horizontal 3s ease infinite;
+}
+
+@-webkit-keyframes horizontal2 {
+  0% {
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+
+  6% {
+    -webkit-transform: translate(0,5px);
+    transform: translate(0,5px);
+  }
+
+  12% {
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+
+  18% {
+    -webkit-transform: translate(0,5px);
+    transform: translate(0,5px);
+  }
+
+  24% {
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+
+  30% {
+    -webkit-transform: translate(0,5px);
+    transform: translate(0,5px);
+  }
+
+  36%, 100% {
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+}
+/* Horizontal Left */
+@keyframes horizontal2 {
+  0% {
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+
+  6% {
+    -webkit-transform: translate(0,5px);
+    -ms-transform: translate(0,5px);
+    transform: translate(0,5px);
+  }
+
+  12% {
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+
+  18% {
+    -webkit-transform: translate(0,5px);
+    -ms-transform: translate(0,5px);
+    transform: translate(0,5px);
+  }
+
+  24% {
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+
+  30% {
+    -webkit-transform: translate(0,5px);
+    -ms-transform: translate(0,5px);
+    transform: translate(0,5px);
+  }
+
+  36%, 100% {
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+}
+
+.faa-horizontal2.animated,
+.faa-horizontal2.animated-hover:hover,
+.faa-parent.animated-hover:hover > .faa-horizontal2 {
+  -webkit-animation: horizontal 2s ease infinite;
+  animation: horizontal 2s ease infinite;
+}
+
+.faa-horizontal2.animated.faa-fast,
+.faa-horizontal2.animated-hover.faa-fast:hover,
+.faa-parent.animated-hover:hover > .faa-horizontal2.faa-fast {
+  -webkit-animation: horizontal 1s ease infinite;
+  animation: horizontal 1s ease infinite;
+}
+
+.faa-horizontal2.animated.faa-slow,
+.faa-horizontal2.animated-hover.faa-slow:hover,
+.faa-parent.animated-hover:hover > .faa-horizontal2.faa-slow {
+  -webkit-animation: horizontal 3s ease infinite;
+  animation: horizontal 3s ease infinite;
 }

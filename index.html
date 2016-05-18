@@ -6,17 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-#=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge; IE=9; IE=8; IE=7">
     <link rel='shortcut icon' href='./img/favicon.ico' type='image/x-icon'/ >
+    
+    <!-- font awesome icons custom pack -->
     <script src="https://use.fonticons.com/37361afd.js"></script>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="./css/cv.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    <!-- font from google fonts -->
     <link href='https://fonts.googleapis.com/css?family=Sniglet' rel='stylesheet' type='text/css'>
-    <style>
-      body {
-       font-family: 'Sniglet', cursive;
-      }
-    </style>
+    <style>body{font-family: 'Sniglet', cursive;}</style>
 
 
   </head>
@@ -24,7 +23,7 @@
 <div class="header">
       <nav class="nav nav-inline" id="navmain">
         <div class="nav-link" id="sith">
-        <a class="nav-link" href="https://www.google.com/starwars"><i class="fa fa-empire"></i></a>
+        <a class="nav-link" href="https://www.google.com/starwars"><i class="fa fa-empire fa-2x"></i></a>
         </div>
         <a class="nav-link" href="index.html">Stephen Gault</a>
         <a class="nav-link" href="#sec1">Welcome</a>
@@ -34,7 +33,7 @@
         <a class="nav-link" href="#sec5">Interests</a>
         <a class="nav-link" href="#sec6">Contact</a>
         <div class="nav-link" id="jedi">
-        <a class="nav-link" href="https://www.google.com/starwars"><i class="fa fa-rebel"></i></a>
+        <a class="nav-link" href="https://www.google.com/starwars"><i class="fa fa-rebel fa-2x"></i></a>
         </div>
       </nav>
 </div>
@@ -70,13 +69,22 @@
       <br>
       <br>
         <span>There appears to be quite a lot of white space here (intentional) so how about we just move along.</span><br><br>
-        <div id="align">
+      <div id="align1">
         <i class="fa fa-minus fa-rotate-90 fa-2x"></i>
-        <br><br><br><br>
+      <br><br>
         <i class="fa fa-minus fa-rotate-90 fa-2x"></i>
-        <br><br><br><br>
-       <a href="#sec2"><i class="fa fa-chevron-down fa-2x"></i></a>
-       </div>
+      <br><br>
+        <div class="col-sm-1 col-sm-offset-4">
+        <i class="fa fa-chevron-right faa-horizontal animated faa-fast fa-2x"></i>
+        </div>
+        <div class="col-sm-2">
+        <a href="#sec2"><i class="fa fa-chevron-down fa-2x"></i></a>
+        </div>
+        <div class="col-sm-1">
+        <i class="fa fa-chevron-left faa-horizontal2 animated faa-fast fa-2x"></i>
+        </div>
+        
+      </div>
 
     </div>
   </div>
@@ -87,9 +95,7 @@
   <div class="row" id="gradientblue">
     <div class="container">
       <div id="about">
-        
-          <h2>About</h2>      
-        
+          <h2>About</h2>
       </div>
     </div>
   </div>
@@ -99,7 +105,10 @@
   <div class="row">
     <div class="container">
       <div>
-        <p>Ipsum Lorem</p>
+      <br>
+        <span><b>So what do I say about myself here</b></span>
+        <br>
+        <span>Ipsum Lorem</span>
       </div>
     </div>
   </div>
@@ -133,11 +142,15 @@
         <br>
         <br>
         <ul class="fa-ul">
-          <li><i class="fa-li fa fa-empire"></i><span>Responsible for design and development of bespoke web form. (HTML, CSS, JavaScript, Bootstrap, PHP, SQL, Azure ). Scratch built and available for viewing on github (https://github.com/Groghall/ABPServiceForm).</span></li>
-          <li><i class="fa-li fa fa-empire"></i><span>IT support for maintenance of engineers laptops, rebuild of broken laptops (screen replacements, broken keyboards), upgrade and install of windows 10 to spare laptops and pc’s. Printer maintenance and liaising with IT service management for faults.</span></li>
-          <li><i class="fa-li fa fa-empire"></i><span>Making excel documents more fluid and dynamic using vba and macros.</span></li>
-          <li><i class="fa-li fa fa-empire"></i><span>eneration of job cards for engineers and planning of work for week ahead.</span></li>
-          <li><i class="fa-li fa fa-empire"></i><span>Responsible for generation of daily reports of data from chp power units and sending reports to Clients.</span></li>
+          <li><i class="fa-li fa fa-empire fa-spin"></i><span>Responsible for design and development of bespoke web form. (HTML, CSS, JavaScript, Bootstrap, PHP, SQL, Azure ). Scratch built and available for viewing on github (https://github.com/Groghall/ABPServiceForm).</span></li>
+          <li><br></li>
+          <li><i class="fa-li fa fa-empire fa-spin"></i><span>IT support for maintenance of engineers laptops, rebuild of broken laptops (screen replacements, broken keyboards), upgrade and install of windows 10 to spare laptops and pc’s. Printer maintenance and liaising with IT service management for faults.</span></li>
+          <li><br></li>
+          <li><i class="fa-li fa fa-empire fa-spin"></i><span>Making excel documents more fluid and dynamic using vba and macros.</span></li>
+          <li><br></li>
+          <li><i class="fa-li fa fa-empire fa-spin"></i><span>eneration of job cards for engineers and planning of work for week ahead.</span></li>
+          <li><br></li>
+          <li><i class="fa-li fa fa-empire fa-spin"></i><span>Responsible for generation of daily reports of data from chp power units and sending reports to Clients.</span></li>
         </ul>
         </div>
 
@@ -213,28 +226,103 @@
     </div>
   </div>
 </div>
-<!-- About info overview, Information about me -->
-<div class="container-fluid" id="scale2" >
+<!-- contact information overview -->
+<div class="container-fluid" id="scale2">
+<br>
   <div class="row">
     <div class="container">
-      <div>
-      <br>
-      <br>
-      <span>Click on the icon below and you will be able to download / view a word version of my cv</span>
-      <br>
-      <br>
-      <br>
-      <div id="align">
-        <a href="https://drive.google.com/file/d/0B9dW9Ts22t0FYUVpeDdrNnhVdWM/view?usp=sharing"><i class="fa fa-download fa-4x"></i></a>
+    <br>    
+      <div class="col-sm-12">
+        <h4>Please see below for contact information and hobbies links</h4>
+      </div>      
+    </div>
+   </div>
+
+  <div class="row">
+    <div class="container" id="align">
+    <br>
+      <div class="col-xs-1">
+        <ul class="fa-ul">
+          <li><i class="fa-li fa fa-universal-access"></i></li>
+          <br>
+          <br>
+          <li><a href="http://maps.google.com/maps?q=loc:53.419933,-3.027322"><i class="fa-li fa fa-map-o"></i></li></a>
+          <br>
+          <br>
+          <li><a href="tel:+447733438258"><i class="fa-li fa fa-mobile"></i></a></li>
+          <br>
+          <br>
+          <li><a href="mailto:stephengault626@gmail.com?Subject=Nice%20CV%20would%20you%20like%20a%20job" target="_top""><i class="fa-li fa fa-envelope"></i></a></li>
+        </ul>
       </div>
+      <div class="col-sm-5">
+        <ul class="fa-ul">
+          <li>Stephen Gault</li>
+          <br>
+          <li>49 Wright Street, Wallasey, Wirral, CH44 8BD</li>
+          <br>
+          <li>+447733438258</li>
+          <br>
+          <li>stephengault626@gmail.com</li>
+        </ul>
+      </div>
+      <div class="col-sm-1">
+        <ul class="fa-ul">
+          <li><a href="https://my.playstation.com/groghall"><i class="fa-li fa fa-gamepad"></i></a></li>
+          <br>
+          <br>
+          <li><a href="https://www.goodreads.com/Groghall"><i class="fa-li fa fa-book"></i></a></li>
+          <br>
+          <br>
+          <li><a href="http://www.telegraph.co.uk/motoring/motorcycle_manufacturers/suzuki/7644991/Suzuki-Bandit-1250GT-long-term-review.html"><i class="fa-li fa fa-motorcycle"></i></a></li>
+        </ul>
+      </div>
+      <div class="col-sm-5">
+        <ul class="fa-ul">
+          <li>PSN: Groghall</li>
+          <br>
+          <li>Goodreads</li>
+          <br>
+          <li>Suzuki Bandit 1250 GTS</li>
+        </ul>
       </div>
     </div>
   </div>
-</div>
+  <hr>
+  <div class="row">
+    <div class="container">
+    <br>    
+      <div class="col-sm-12">
+        <h4>CV download options below</h4>
+      </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="container" id="align">
+    <br>    
+      <div class="col-sm-1">
+        <ul class="fa-ul">
+          <li><a href="https://drive.google.com/file/d/0B9dW9Ts22t0FYUVpeDdrNnhVdWM/view?usp=sharing"><i class="fa-li fa fa-download"></i></a></li>
+          <br>
+          <br>
+          <li><a href="./docs/CV_Mr_S_Gault.docx"><i class="fa-li fa fa-download"></i></a></li>
+        </ul>
+      </div>   
+      <div class="col-sm-6">
+        <ul class="fa-ul">
+          <li>Download from Google Drive</li>
+          <br>
+          <li>Alternativley straight from here</li>
+        </ul>
+      </div>
+      </div>
+      </div>
+      
+  </div>
 
-
-  <footer id="padding">
-<div class="pull-xs-left">
+<!-- footer -->
+<footer id="padding">
+  <div class="pull-xs-left">
     <ul class="list-inline" style="display: inline-block;">
       <li class="list-inline-item"><a href="https://www.facebook.com/gaulttech"><i class="fa fa-facebook-official fa-2x"></i></a></li>
       <li class="list-inline-item"></li>
@@ -247,18 +335,13 @@
       <li class="list-inline-item"></li>
       <li class="list-inline-item"><a href="https://github.com/Groghall"><i class="fa fa-github-alt fa-2x"></i></a></li>
     </ul>  
-</div>
+  </div>
 
-<div class="pull-xs-right">
-    <ul class="list-inline" style="display: inline-block;">
-    <li class="list-inline-item"><p>CV site by <a href="https://uk.linkedin.com/in/gaultstephen">Steve Gault </a><script>document.write(new Date().getFullYear());</script></p></li>
-    </ul>
-</div>  
-
-
-
+  <div class="pull-xs-right">
+      <ul class="list-inline" style="display: inline-block;">
+      <li class="list-inline-item"><p>CV site by <a href="https://uk.linkedin.com/in/gaultstephen">Steve Gault </a><script>document.write(new Date().getFullYear());</script></p></li>
+      </ul>
+  </div>  
 </footer>
-
-
 </body>
 </html>
